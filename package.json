@@ -1,0 +1,29 @@
+{
+  "name": "testcli",
+  "version": "1.0.0",
+  "description": "用来学一下cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "bin": {
+    "testcli": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7ABin/testcli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7ABin/testcli/issues"
+  },
+  "homepage": "https://github.com/7ABin/testcli#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^12.0.0",
+    "ora": "^8.1.0"
+  }
+}
